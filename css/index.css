@@ -1,0 +1,24 @@
+body {
+    padding:0;
+    background-color: #333;
+}
+#editor {
+    height: calc(100vh - 50px);
+    margin-top: 10px;
+    position:relative;
+}
+
+textarea {
+    resize: none;
+}
+
+#ace-editor {
+    position: absolute;
+    width: 50%;
+    bottom:0;
+    top:0;
+}
+
+#ace-editor:last-child {
+    right:0;
+}
